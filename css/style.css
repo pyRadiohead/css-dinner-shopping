@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Trebuchet MS", "Trebuchet", Arial, sans-serif;
+  background: #3b3f45;
+  margin: 0;
+  padding: 0;
+  border: 30px solid #fff;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+* {
+  *transition: all 0.1s ease-in;
+}
+
+.ba-container {
+  max-width: 897px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span.count-of-dishes {
+  font-size: 32px;
+  color: #fff;
+}
+
+span.comments {
+  font-size: 16px;
+  color: #cdcbd2;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-title {
+  color: #eb7e7f;
+  text-align: center;
+  background: #4a4f56;
+  padding: 10px;
+}
+
+.main-title h1 {
+  font-size: 40px;
+}
+
+.main-title p {
+  font-size: 32px;
+}
+
+.table-list {
+  padding: 0;
+}
+
+ul input[type="checkbox"] {
+  transform: scale(2.5);
+  margin-right: 15px;
+}
+
+li:nth-of-type(odd) {
+  background-color: #88839e;
+}
+
+li:nth-of-type(even) {
+  background-color: #7a7593;
+}
+
+li {
+  padding: 10px;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  vertical-align: middle;
+}
+
+li:hover {
+  background-color: #625e77;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.product-name {
+  display: block;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: #f96f70;
+}
+
+span.count-of-dishes,
+span.comments,
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+.table-list li:active {
+  background: #f96f70;
+}
+
+.ba-footer {
+  background: #494f56;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  color: #f96f70;
+}
+
+.ba-footer p:after {
+  content: ":)";
+}
